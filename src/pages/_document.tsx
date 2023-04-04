@@ -7,6 +7,7 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
+        {/* this is a comment */}
       </body>
     </Html>
   )
