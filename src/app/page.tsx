@@ -3,16 +3,16 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <main className="max-w-xl mx-auto relative">
+      <main className="relative max-w-xl mx-auto p-6 sm:px-0">
         <Image
           src="/memoji.png"
-          width={120}
-          height={150}
+          width={90}
+          height={100}
           alt="zino-memoji"
-          className="absolute -top-3   right-5"
+          className="absolute top-6 right-6"
         />
 
-        <h1 className="text-3xl mt-10 font-semibold">Zino Meyer</h1>
+        <h1 className="text-3xl mt-0 font-semibold">Zino Meyer</h1>
 
         <br />
 
@@ -39,7 +39,6 @@ export default function Home() {
                 marta
               </a>
             </li>
-            <li>Building projects on the side</li>
           </ul>
         </section>
 
@@ -54,7 +53,7 @@ export default function Home() {
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
+              strokeWidth="2"
               stroke-linecap="round"
               stroke-linejoin="round"
               className="lucide lucide-linkedin"
@@ -73,7 +72,7 @@ export default function Home() {
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
+              strokeWidth="2"
               stroke-linecap="round"
               stroke-linejoin="round"
               className="lucide lucide-twitter"
@@ -90,7 +89,7 @@ export default function Home() {
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
+              strokeWidth="2"
               stroke-linecap="round"
               stroke-linejoin="round"
               className="lucide lucide-github"
@@ -100,6 +99,10 @@ export default function Home() {
             </svg>
           </a>
         </section>
+
+        {/* Add reading list */}
+
+        {/* Add projects */}
       </main>
     </>
   );
